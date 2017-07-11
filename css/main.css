@@ -42,6 +42,6 @@ ul.posts li {
     list-style: none;
 }
 
-ul.excerpts li {
-    list-style: none;
+.excerpts li {
+    list-style-type: none;
     }
