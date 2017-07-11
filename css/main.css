@@ -71,3 +71,8 @@ ul.posts li {
 .title a {
     font-variant: small-caps;
     }
+
+.date {
+    text-align: center;
+    font-style: italic;
+    }
