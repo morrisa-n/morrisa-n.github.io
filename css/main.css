@@ -46,6 +46,15 @@ footer {
     font-size: .8em;
 }
 
+.fa {
+    background: #f4f4f4;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    padding: 1em;
+    }
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
