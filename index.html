@@ -6,3 +6,13 @@ title: Morrisa Neely's Blog
     <h1>Hi!</h1>
     <p>I'm Morrisa. Welcome to my blog.</p>
 </div><!-- /.blurb -->
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
