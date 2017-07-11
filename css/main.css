@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-family: "Vast Shadow", Georgia, serif;
     border: 1px solid black;
-    padding: 2em;
+    padding: 1em;
     }
 
 a {
@@ -31,11 +31,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 p {
