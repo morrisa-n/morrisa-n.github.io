@@ -6,6 +6,9 @@
     -ms-box-sizing: border-box!important;
     box-sizing: border-box;
     }
+.wrapper {
+    width: 100%;
+    }
 
 .container {
     margin: 60px auto;
