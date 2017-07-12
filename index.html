@@ -15,4 +15,7 @@ title: Writer Cracks the Code
     </li>
   {% endfor %}
 </ul>
+{% if post.excerpt != post.content %}
+    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+{% endif %}
 </div>
