@@ -12,7 +12,7 @@
 
 .container {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
 
 a {
@@ -95,6 +95,7 @@ ul.posts li {
 .title {
     background: #88ccf1;
     padding: .2em;
+    margin-bottom: .5em;
     }
 
 
@@ -106,6 +107,8 @@ ul.posts li {
 .date {
     text-align: center;
     font-style: italic;
+    font-size: .9em;
+    margin-bottom: .5em;
     }
     
 .readmore a {
