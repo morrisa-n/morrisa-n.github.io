@@ -11,12 +11,14 @@ title: Writer Cracks the Code
 <ul>
   {% for post in site.posts %}
     <li>
+        <div class="post">
       <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <p class="meta date">{{ post.date | date: "%B %-d, %Y" }}</p>
       {{ post.excerpt }}
 <span class="readmore">{% if post.excerpt != post.content %}
     <a href="{{ post.url }}">Read more...</a>
 {% endif %}</span>
+    </div>
     </li>
   {% endfor %}
 </ul>

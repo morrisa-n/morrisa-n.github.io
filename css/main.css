@@ -6,8 +6,10 @@
     -ms-box-sizing: border-box!important;
     box-sizing: border-box;
     }
+    
 .wrapper {
     width: 100%;
+    background-image: url("Images/fresh_snow.png");
     }
 
 .container {
@@ -53,7 +55,6 @@ h1 {
     
 .title-blurb {
     padding-bottom: .5em;
-    border-bottom: 1px solid #d5d5d5;
     margin-bottom: 2em;
     }
     
@@ -92,6 +93,24 @@ ul.posts li {
     margin-bottom: 2em;
     }
     
+.post {
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.2) 25%,
+        rgba(255, 255, 255, 0.8) 75%,
+        rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    padding: 1em;
+    border-radius: 5px;
+    }
+
+.post p {
+    padding-bottom: 1em;
+    }
+    
+.post:hover {
+    background: #fff;
+    }
+
 .title {
     background: #88ccf1;
     padding: .2em;
@@ -111,9 +130,9 @@ ul.posts li {
     margin-bottom: .5em;
     }
     
-.readmore a {
+.readmore {
     position: relative;
-    top: 1em;
+    margin-top: 1em;
     }
 
 nav a, footer a {
