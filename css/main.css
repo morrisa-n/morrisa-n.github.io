@@ -115,10 +115,11 @@ ul.posts li {
     background: #88ccf1;
     padding: .2em;
     margin-bottom: .5em;
+    text-align: center;
     }
 
 
-.title a {
+.title a, title p {
     font-family: "Playfair Display", Georgia, serif;
     color: #fff;
     }
