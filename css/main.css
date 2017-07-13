@@ -114,6 +114,16 @@ ul.posts li {
 .segment:hover {
     background: #fff;
     }
+    
+.segment ul {
+    padding: 1em 1.4em 1em 1.4em;
+    }
+
+.segment li {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+    }
 
 .title {
     background: #88ccf1;
