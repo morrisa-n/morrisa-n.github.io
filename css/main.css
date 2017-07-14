@@ -48,6 +48,14 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+nav a, footer a {
+    color: #fff;
+    }
+
+nav a:hover, footer a:hover {
+    color: #efba00;
+    }
     
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
@@ -59,8 +67,11 @@ h1 {
     }
     
 .title-blurb {
-    padding-bottom: .5em;
+    padding: .5em .5em 1.5em .5em;
     margin-bottom: 2em;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
     }
     
 .title-blurb h2 {
@@ -99,13 +110,13 @@ ul.posts li {
     }
     
 .segment {
-    background: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 0%,
+    background: linear-gradient(-40deg, rgba(255, 255, 255, 0.2) 0%,
         rgba(255, 255, 255, 0.4) 25%,
         rgba(255, 255, 255, 0.8) 75%,
         rgba(255, 255, 255, 0.1) 100%);
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     padding: 1em;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     color: #000;
     font-family: Lato, Arial, sans-serif;
@@ -130,7 +141,7 @@ ul.posts li {
     }
 
 .title {
-    background: #037eaf;
+    background: rgba(3, 126, 175, 0.5);
     color: #fff;
     padding: .2em;
     margin-bottom: .5em;
@@ -143,6 +154,10 @@ ul.posts li {
     color: #fff;
     }
 
+.title a:hover {
+    color: #f48c00;
+    }
+
 .date {
     text-align: center;
     font-style: italic;
@@ -153,12 +168,4 @@ ul.posts li {
 .readmore {
     position: relative;
     margin-top: 1em;
-    }
-
-nav a, footer a {
-    color: #fff;
-    }
-
-nav a:hover, footer a:hover {
-    color: #000;
     }
