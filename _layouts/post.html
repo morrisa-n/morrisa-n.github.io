@@ -2,7 +2,12 @@
 layout: default
 ---
 
-<h1 class="title-blurb">{{ page.title }}</h1>
+<div class="title-blurb"><h1>{{ page.title }}</h1>
+<h2>{% comment %}
+{% endcomment %}
+{% for tag in tags %}
+    <a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}</div>
 
 <div class="container">
 <div class="segment"><h2 class="meta title">{{ page.date | date: "%B %-d, %Y" }}</h2>
