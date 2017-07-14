@@ -21,17 +21,17 @@ body {
 .container {
     margin: 60px auto;
     width: 80%;
-}
+    }
 
 a {
     text-decoration: none;
     color: #037eaf;
     font-weight: bold;
-}
+    }
 
 a:hover {
     color: #f48c00;
-}
+    }
 
 nav {
     height: 50px;
@@ -42,12 +42,12 @@ nav ul, footer ul {
     font-family: Lato, Arial, sans-serif;
     list-style: none;
     font-weight: bold;
-}
+    }
 
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}
+    }
 
 nav a, footer a {
     color: #fff;
@@ -71,10 +71,16 @@ footer {
     height: 50px;
     padding: 14px 0 0 12px;
     font-size: .8em;
-}
+    }
 
 nav, footer {
     background: #729f0f;
+    }
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
     }
     
 .right {
@@ -89,15 +95,13 @@ nav, footer {
     border-radius: 5px;
     }
     
+.title-blurb h1 {
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.4);
+    }
+    
 .title-blurb h2 {
     font-family: "Playfair Display", Georgia, serif;
     }
-
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
 
 
 ul.posts { 
@@ -146,7 +150,7 @@ ul.posts li {
     }
 
 .title {
-    background: rgba(3, 126, 175, 0.5);
+    background: linear-gradient(90deg, rgba(3, 126, 175, 0.2), rgba(3, 126, 175, 0.8), rgba(3, 126, 175, 0.2));
     color: #fff;
     padding: .2em;
     margin-bottom: .5em;
