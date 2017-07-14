@@ -5,7 +5,10 @@ title: Morrisa's Blog
 <head>
     <link rel="stylesheet" type="text/css" href="../css/blog.css">
 </head>
-    <h1>{{ page.title }}</h1>
+    <div class="title-blurb"><h1>{{ page.title }}</h1>
+    <h2>Browse by <a href="/blog/category/">Category</a> or <a href="/blog/tag/">Tag</a></h2>
+</div>
+</div>
     <div class="segment"><ul class="posts">
 
       {% for post in site.posts %}
