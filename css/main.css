@@ -33,6 +33,11 @@ a:hover {
     color: #f48c00;
     text-decoration: none;
     }
+    
+.btn.btn-default:hover {
+    background: #f48c00;
+    color: #fff;
+    }
 
 nav {
     height: 50px;
@@ -56,15 +61,11 @@ nav a, footer a {
 
 nav a:hover, footer a:hover {
     color: #efba00;
+    text-decoration: none;
     }
     
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    }
-
-h1 {
-    font-family: "Abril Fatface", Georgia, serif;
-    font-size: 4.5em;
     }
     
 footer {
@@ -96,13 +97,15 @@ p {
     border-radius: 5px;
     color: #000;
     }
-    
+
 .title-blurb h1 {
+    font-family: "Abril Fatface", Georgia, serif!important;
+    font-size: 4.5em;
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.4);
     }
     
 .title-blurb h2 {
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: "Playfair Display", Georgia, serif!important;
     }
 
 
