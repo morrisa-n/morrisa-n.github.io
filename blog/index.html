@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Morrisa's Blog
+title: Writer Cracks the Code - Index
 ---
-<div class="title-blurb"><h1>{{ page.title }}</h1>
-</div>
-</div>
+<div class="container">  
+    <div class="title-blurb"><h1>{{ page.title }}</h1>
+    </div>
     <div class="segment"><ul class="posts">
 
       {% for post in site.posts %}
         <li><span>{{ post.date | date: "%B %-d, %Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
-    
-    <a href="/atom.xml" title="Feed"><i class="fa fa-rss-square fa-lg"></i></a>
     </div>
+</div>

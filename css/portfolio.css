@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    -ms-box-sizing: border-box!important;
+    box-sizing: border-box;
+    }
+    
+html {
+    min-height: 100%;
+    }
+
+body {
+    background: url("/Images/Portfolio/light-bokeh-pixabay.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    margin-bottom: 0!important;
+    bottom: 0;
+    }
+
+.wrapper {
+    position: relative;
+    width: 70%;
+    min-height: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    margin-bottom: 0!important;
+    background: rgba(255, 255, 255, 0.7);
+    }
+    
+.navbar {
+    margin-bottom: 0;
+    bottom: 0;
+    z-index: 1;
+    border: 0;
+    background: #fff;
+    font-family: Lato, Calibri, Arial, sans-serif;
+    }
+    
+.navbar a {
+    color: #89816e!important;
+    }
+    
+.active a {
+    background: #f3f5e5!important;
+    }
+
+.jumbotron {
+    font-family: Quicksand, sans-serif;
+    height: 500px;
+    background: url("/Images/Portfolio/bokeh-lights-pixabay.jpg");
+    background-size: cover;
+    padding: 5% 0;
+    margin-top: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 4;
+    }
+    
+.jumbotron h1 {
+    padding: 5% 0;
+    font-weight: 100;
+    font-size: 8em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px -1px 4px rgba(0, 0, 0, 0.6);
+    }
+
+.title-blurb, .segment {
+    background: rgba(255, 255, 255, 0.8);
+    }
+
+.portfolio {
+    padding: 3em 2em 10em 2em;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 1.5em;
+    }
+    
+.portfolio p {
+    padding-bottom: .4em;
+    font-family:  Lato, Calibri, Arial, sans-serif;
+    }
+    
+.portfolio h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 1.7em;
+    }
+    
+.portfolio a {
+    color: #ed469c;
+    }
+
+.portfolio a:hover {
+    color: #dd7229;
+    text-decoration: none;
+    }
+    
+a.btn.btn-default {
+    color: #333!important;
+    }
+    
+.btn.btn-default {
+    background: #fff;
+    border: 0;
+    }
+    
+.btn.btn-default:hover {
+    background: #e4e34a;
+    }
+
+.thumb:hover {
+    transform: scale(1.5, 1.5);
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+    }
+    
+.text-center img {
+    margin-bottom: 1.5em;
+    }
+    
+.footer {
+    bottom: 0!important;
+    height: 50px;
+    background: #fff;
+    color: #89816e;
+    margin-bottom: 0!important;
+    padding: 1em 2em 1em 2em;
+    font-family: Lato, Calibri, Arial, sans-serif;
+    }
+
+.footer li {
+    display: inline;
+    padding: 0 1em 0 1em;
+    }
+    
+.footer a {
+    color: #ed387f;
+    }
+    
+.footer a:hover {
+    color: #e4e34a;
+    }
+    
+.right {
+    float: right;
+    }

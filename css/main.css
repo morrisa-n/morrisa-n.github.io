@@ -31,6 +31,7 @@ a {
 
 a:hover {
     color: #f48c00;
+    text-decoration: none;
     }
 
 nav {
@@ -39,7 +40,7 @@ nav {
     }
 
 nav ul, footer ul {
-    font-family: Lato, Arial, sans-serif;
+    font-family: Lato, Calibri, Arial, sans-serif;
     list-style: none;
     font-weight: bold;
     }
@@ -93,6 +94,7 @@ p {
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 5px;
+    color: #000;
     }
     
 .title-blurb h1 {
@@ -128,7 +130,7 @@ ul.posts li {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     color: #000;
-    font-family: Lato, Arial, sans-serif;
+    font-family: Lato, Calibri, Arial, sans-serif;
     }
 
 .segment p {
@@ -137,6 +139,11 @@ ul.posts li {
     
 .segment:hover {
     background: #fff;
+    -webkit-transition: all 2s ease; /* Safari and Chrome */
+    -moz-transition: all 2s ease; /* Firefox */
+    -ms-transition: all 2s ease; /* IE 9 */
+    -o-transition: all 2s ease; /* Opera */
+    transition: all 2s ease;
     }
     
 .segment ul {
@@ -177,4 +184,34 @@ ul.posts li {
 .readmore {
     position: relative;
     margin-top: 1em;
+    }
+
+.portfolio {
+    padding: 1.5em 1em;
+    overflow: hidden;
+    }
+
+.portfolio img:hover {
+    -webkit-filter: opacity(100%);
+    filter: opacity(100%);
+    width: 160px;
+    height: 160px;
+    margin-bottom: -20px;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+    overflow: hidden;
+    }
+    
+.btn {
+    background: #037eaf;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    }
+
+.btn:hover {
+    background: #f48c00;
+    color: #fff;
     }
