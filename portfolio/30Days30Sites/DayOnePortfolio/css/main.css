@@ -64,7 +64,7 @@ html, body {
     }
     
 body {
-    background: url("/portfolio/30Days30Sites/DayOnePortfolio/images/squairy_light.png");
+    background: url("/portfolio/30Days30Sites/DayOnePortfolio/images/squairy_light.png"); /* Image from Subtle Patterns https://www.toptal.com/designers/subtlepatterns/squairy/ */
     background-attachment: fixed;
     }
 
