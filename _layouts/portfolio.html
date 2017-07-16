@@ -1,68 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.css" type="text/css">
-        <link rel="stylesheet" type="text/css" href="/FontAwesome/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="/FontAwesome/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway|Lato" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/css/portfolio.css">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="/css/bootstrap/js/bootstrap.js" ></script>
-    </head>
-    <body>
+<body>
         <div class="wrapper">
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/" title="Site Home"><i class="fa fa-home fa-lg"></i></a></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="dropdown active">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/portfolio">Portfolio Home</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="/portfolio/blog.html">Jekyll Blog</a></li>
-            <li><a href="/portfolio/temperature.html">Temperature Converter</a></li>
-            <li><a href="/portfolio/tribute.html">Tribute Page Project</a></li>
-          </ul>
-        </li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+            {% include pnav.html %}
             <div class="jumbotron"><h1>{{ page.title }}</h1></div>
             <div class="portfolio">
             
             {{ content }}
             
             </div>
-        <div class="footer">
-            <ul>
-                <li>&copy; 2017 Morrisa Neely</li>
-                <span class="right">
-                <li><a href="http://www.google.com/recaptcha/mailhide/d?k=01tZk-z5UGIc4Rrd7_tGHwfw==&amp;c=Fi7B_cBnQIpPzvw5C7YaT2-HtiDD-P9yfmu95LMcnxU=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01tZk-z5UGIc4Rrd7_tGHwfw\x3d\x3d\x26c\x3dFi7B_cBnQIpPzvw5C7YaT2-HtiDD-P9yfmu95LMcnxU\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address"><i class="fa fa-envelope"></i></a></li>
-                <li><a href="http://twitter.com/themorrisacode" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.facebook.com/misspelledmorrisa" title="Facebook"><i class="fa fa-facebook-square"></i></a></li>
-                <li><a href="https://github.com/morrisa-n" title="Github"><i class="fa fa-github"></i></a></li>
-                <li><a href="/blog/atom.xml" title="Subscribe"><i class="fa fa-rss"></i></a></li>
-                </span>
-                </ul>
-        </div>
+            {% include pfoot.html %}
         </div>
     </body>
 </html>

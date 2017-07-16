@@ -19,6 +19,10 @@ body {
     margin-bottom: 0!important;
     bottom: 0;
     }
+    
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    }
 
 .wrapper {
     position: relative;
@@ -46,12 +50,22 @@ body {
 .active a {
     background: #f3f5e5!important;
     }
+    
+.dropdown-menu {
+    background: #f3f5e5!important;
+    }
+    
+.dropdown-menu a:hover {
+    background: #fff!important;
+    }
 
 .jumbotron {
     font-family: Quicksand, sans-serif;
     height: 500px;
     background: url("/Images/Portfolio/bokeh-lights-pixabay.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2a2b25;
     padding: 5% 0;
     margin-top: 0;
     top: 0;
@@ -105,6 +119,7 @@ a.btn.btn-default {
 .btn.btn-default {
     background: #fff;
     border: 0;
+    margin-bottom: 2.5em;
     }
     
 .btn.btn-default:hover {
@@ -121,7 +136,17 @@ a.btn.btn-default {
     }
     
 .text-center img {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
+    }
+    
+.subhead {
+    margin-bottom: 1em;
+    }
+    
+hr {
+    width: 50%;
+    margin: 0 auto 2em auto;
+    color: #89816e;
     }
     
 .footer {
@@ -132,6 +157,7 @@ a.btn.btn-default {
     margin-bottom: 0!important;
     padding: 1em 2em 1em 2em;
     font-family: Lato, Calibri, Arial, sans-serif;
+    overflow: hidden;
     }
 
 .footer li {
