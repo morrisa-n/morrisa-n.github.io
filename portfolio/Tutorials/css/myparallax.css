@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6 { /* I changed this */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+    
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CODE */
+
+* {
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    -ms-box-sizing: border-box!important;
+    box-sizing: border-box;
+    }
+
+p {
+    font-size: 1.9em;
+    font-family: "Josefin Sans";
+    }
+    
+h2 {
+    font-family: "Poiret One";
+    font-weight: normal;
+    font-size: 4em;
+    }
+    
+.cursive {
+    font-family: "Great Vibes";
+    font-size: 1.8em;
+    position: relative;
+    z-index: 200;
+    }
+    
+.amp {
+    font-family: "Poiret One";
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+    z-index: 1;
+    }
+    
+.big-letter {
+    font-size: 1.3em;
+    letter-spacing: -.05em;
+    }
+    
+.time {
+    font-size: 1.6em;
+    }
+    
+.space {
+    padding-right: .3em;
+    }
+    
+.center {
+    margin: 0 auto;
+    }
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+    }
+    
+.clear {
+    clear: both;
+    }
+    
+#footer {
+    width: 100%;
+    background: rgba(129, 57, 79, 0.5);
+    height: 2.5em;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    text-align: center;
+    position: fixed;
+    bottom: -1px;
+    z-index: 1000;
+    text-transform: uppercase;
+    padding: .9em 0 .5em 0;
+    }
+    
+#nav ul {
+    list-style-type: none;
+    display: block;
+    margin: 0 auto;
+    }
+    
+#nav li {
+    display: inline;
+    padding: 0 .9em;
+    text-align: center;
+    }
+    
+#nav a {
+    color: #fff;
+    font-family: Roboto;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    
+#nav a:hover, #nav a:focus, #nav a:active {
+    color: gold;
+    text-decoration: none;
+    text-shadow: none;
+    }
+    
+#invite, #rsvp {
+    width: 100%;
+    }
+    
+#invite {
+    background: url("/portfolio/30Days30Sites/images/ringspexels.jpeg") no-repeat center center fixed;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    height: 1200px;
+    }
+    
+.invite-text {
+    background: rgba(129, 57, 79, 0.5);
+    padding: 2em 4em 2em 4em;
+    text-align: center;
+    margin-bottom: 5em;
+    }
+    
+#rsvp {
+    background-color: #fff;
+    color: #000;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 0;
+    }
+    
+#story {
+    background: url("/portfolio/30Days30Sites/images/glasses-pexels.jpg") 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 1200px;
+    margin-top: 4em;
+    padding: 7em 4em 2em 4em;
+    background-size: cover;
+    }
+    
+#story h2 {
+    margin-bottom: 1em;
+    }
+    
+#story p {
+    padding-bottom: 1em;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 100;
+    }
+    
+.story-text {
+    background: rgba(47, 39, 36, 0.5);
+    padding: 2em 4em 2em 4em;
+    }
+    
+#registry {
+    background-color: #fff;
+    color: #000;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 0;
+    }
+    
+#registry ul {
+    list-style-position: inside;
+    }
+    
+#registry li {
+    font-size: 1.9em;
+    font-family: "Josefin Sans";
+    }
+    
+#directions {
+    background: url("/portfolio/30Days30Sites/images/women-pixabay.jpg") 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 1200px;
+    margin-top: 4em;
+    padding: 5em 4em 2em 4em;
+    background-size: cover;
+    }
+    
+#directions h2 {
+    margin-bottom: 1em;
+    }
+    
+#directions p {
+    padding-bottom: 1em;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 100;
+    }
+    
+.directions-text {
+    background: rgba(129, 57, 79, 0.5);
+    padding: 2em 4em 2em 4em;
+    text-align: center;
+    margin-bottom: 5em;
+    margin-top: 3em;
+    }
+    
+hr {
+    width: 50%;
+    margin: 0 auto;
+    }
+    
+.reminder h2 {
+    margin-top: 0.4em;
+    margin-bottom: -0.5em;
+    padding-bottom: -0.5em;
+    }
+    
+.reminder p {
+    text-align: center!important;
+    margin-top: -0.6em;
+    }
