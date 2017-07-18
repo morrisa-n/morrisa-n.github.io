@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    -ms-box-sizing: border-box!important;
+    box-sizing: border-box;
+    }
+    
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Droid Sans", Arial, sans-serif;
+    }
+    
+h2 {
+    text-align: center;
+    font-family: "Amatic SC", Arial, sans-serif;
+    font-size: 3em;
+    }
+    
+.slide1 {
+    background: url("/portfolio/30Days30Sites/images/guitars-pixabay.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+    overflow: auto;
+    }
+    
+.slide1 h1 {
+    font-family: "Alfa Slab One";
+    font-weight: normal;
+    font-size: 8em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 1);
+    }
+
+.slide1 h2 {
+    font-size: 5em;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    }
+    
+.text-box1 {
+    width: 100%;
+    height: 60%;
+    max-height: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 2em 0.6em .8em 0.6em;
+    overflow: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    }
+    
+.slide-text {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+.mid-col-bordered {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    }
+    
+.slide2 {
+    width: 100%;
+    background-color: #fff;
+    height: 900px;
+    font-size: 1.7em;
+    padding: 0.8em 1em 2em 1em;
+    overflow: auto;
+    }
+    
+.list {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    }
+    
+.slide2-pics {
+    width: 98%;
+    }
+    
+.slide2-pics img {
+    margin-bottom: 2em;
+    }
+    
+.slide3 {
+    background: url("/portfolio/30Days30Sites/images/parthenon-pixabay.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    padding-top: 11em;
+    overflow: auto;
+    }
+    
+.slide3 .yay {
+    font-size: 2em;
+    text-align: left;
+    float: left;
+    }
+    
+.big-and-bold {
+    font-size: 2em;
+    color: #fff;
+    font-family: "Alfa Slab One";
+    text-align: center;
+    text-shadow: 0 0 24px rgba(0, 0, 0, 0.6);
+    }
+    
+.text-box2 {
+    width: 100%;
+    height: 60%;
+    max-height: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-top: 3em;
+    padding: 2em 0.6em .8em 0.6em;
+    overflow: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    }
+    
+#johnny {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 1em;
+    }
+    
+#ryman {
+    height: 30%;
+    width: 30%;
+    float: right;
+    padding-left: 1em;
+    }
+        
+.slide4 {
+    width: 100%;
+    background-color: #fff;
+    height: 600px;
+    font-size: 1.5em;
+    padding: 4em 1em 2em 1em;
+    overflow: auto;
+    }
+    
+.slide5 {
+    background: url("/portfolio/30Days30Sites/images/nashville-pixabay.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 8em 6em 0 0;
+    overflow: auto;
+    text-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+    }
+    
+.slide5 h2 {
+    position: relative;
+    color: #fff;
+    text-align: right;
+    font-size: 10em;
+    font-family: Yellowtail;
+    margin-bottom: -.3em;
+    }
+    
+.slide5 p {
+    color: #fff;
+    text-align: right;
+    font-size: 6em;
+    font-family: "Amatic SC";
+    }
+    
+.slide5 a {
+    color: #bb2d23;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    }
+    
+.slide5 a:hover, .slide5 a:focus, .slide5 a:active {
+    color: #d26562;
+    text-decoration: none;
+    }
+    
+footer {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+    bottom: 0;
+    font-size: 2em;
+    padding: 0.1em 1.5em;
+    text-align: center;
+    }
+    
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    }
+    
+footer a:hover, footer a:focus, footer a:active {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+footer li {
+    display: inline;
+    }
+    
+.left {
+    float: left;
+    }
+    
+.right {
+    float: right;
+    }
