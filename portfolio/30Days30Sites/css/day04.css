@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    -ms-box-sizing: border-box!important;
+    box-sizing: border-box;
+    }
+    
+body {
+    background: #faf7ef;
+    }
+    
+h3 {
+    font-size: 2em;
+    }
+    
+h1 {
+    font-size: 8em!important;
+    }
+
+.navbar {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Lora, serif;
+    font-weight: bold;
+    }
+    
+.navbar-inverse, .dropdown-menu {
+    background: rgb(107, 49, 1);
+    border: 0;
+    }
+    
+ul.nav.navbar-nav li.active a {
+    background: rgb(107, 49, 1);
+    }
+    
+.dropdown-menu a {
+    font-weight: bold!important;
+    }
+    
+.dropdown-menu a:hover, .dropdown-menu a:active, .dropdown-menu a:focus {
+    font-weight: bold!important;
+    color: #0f0600!important;
+    text-decoration: none;
+    }
+    
+.navbar-nav li a {
+    color: rgba(252, 217, 140, 0.8)!important;
+    }
+    
+.page-header {
+    border: 0!important;
+    }
+    
+.head {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    z-index: 4;
+    margin: 0 auto;
+    width: 98%;
+    overflow: hidden;
+    }
+    
+.carousel {
+    width: 100%;
+    margin: -140px auto 40px auto;
+    font-family: "Playfair Display", serif;
+    z-index: 3;
+    }
+    
+.carousel-caption {
+    background: rgba(23, 10, 1, 0.3);
+    font-size: 1.5em;
+    }
+    
+h2 {
+    font-size: 4em;
+    }
+    
+.special {
+    color: #0f0600;
+    font-weight: bold;
+    }
+    
+.alert-success {
+    width: 80%;
+    padding: 1.5em;
+    }
+    
+.email {
+    font-size: 2em;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 1.5em;
+    }
+    
+.panel-heading {
+    background: rgba(107, 49, 1, 0.8)!important;
+    font-size: 1.6em;
+    font-family: "Playfair Display", serif;
+    border: none;
+    letter-spacing: 0.2em;
+    color: #faf7ef!important;
+    padding: 1.5em 0;
+    border-radius: 0;
+    }
+    
+.panel-primary {
+    color: #faf7ef!important;
+    }
+    
+.panel {
+    border: none;
+    border-radius: 0;
+    background: #faf7ef;
+    }
+    
+.panel-footer {
+    background: #fcd98c;
+    border: none;
+    color: #0f0600;
+    font-family: Lora, serif;
+    font-size: 1.1em;
+    text-align: center;
+    border-radius: 0;
+    }   
+
+footer {
+    background-color: #fcd98c;
+    padding: 2em;
+    font-size: 1.5em;
+    font-family: "Playfair Display", serif;
+    }
+.form-control {
+    border-radius: 0;
+    }
+    
+.btn-success, .btn-success-hover {
+    background: #68ce00;
+    border: 1px solid #68ce00;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0;
+    }
