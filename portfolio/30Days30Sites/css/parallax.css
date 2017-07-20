@@ -169,7 +169,7 @@ h2 {
     }
     
 #invite {
-    background: url("/portfolio/30Days30Sites/images/ringspixabay.jpg") no-repeat center center fixed;
+    background: url("/portfolio/30Days30Sites/images/day02/ringspixabay.jpg") no-repeat center center fixed;
     text-align: center;
     color: #fff;
     background-size: cover;
@@ -189,7 +189,7 @@ h2 {
     }
     
 #rsvp {
-    background: url("/portfolio/30Days30Sites/images/pinstripe.png"); /* From Subtle Patterns */
+    background: url("/portfolio/30Days30Sites/images/day02/pinstripe.png"); /* From Subtle Patterns */
     background-repeat: repeat-x repeat-y;
     background-color: #fff;
     color: #252525;
@@ -209,7 +209,7 @@ h2 {
     }
     
 #story {
-    background: url("/portfolio/30Days30Sites/images/glasses-pexels.jpg") 50% 0 no-repeat fixed;
+    background: url("/portfolio/30Days30Sites/images/day02/glasses-pexels.jpg") 50% 0 no-repeat fixed;
     color: #fff;
     height: 100%;
     padding: 5em 2.5em;
@@ -233,7 +233,7 @@ h2 {
     }
     
 #registry {
-    background: url("/portfolio/30Days30Sites/images/pinstripe.png") center center;
+    background: url("/portfolio/30Days30Sites/images/day02/pinstripe.png") center center;
     background-repeat: repeat;
     background-color: #fff;
     color: #585c3f;
@@ -273,7 +273,7 @@ h2 {
     }
     
 #directions {
-    background: url("/portfolio/30Days30Sites/images/women-pixabay.jpg") no-repeat center center fixed;
+    background: url("/portfolio/30Days30Sites/images/day02/women-pixabay.jpg") no-repeat center center fixed;
     color: #fff;
     height: 101%;
     padding: 2.7em 2.5em 2.5em 2.5em;

@@ -20,7 +20,7 @@ h2 {
     }
     
 .slide1 {
-    background: url("/portfolio/30Days30Sites/images/guitars-pixabay.jpg") no-repeat center center fixed; 
+    background: url("/portfolio/30Days30Sites/images/day03/guitars-pixabay.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -81,7 +81,7 @@ h2 {
 .slide2 {
     position: relative;
     width: 100%;
-    background: url("/portfolio/30Days30Sites/images/exclusive_paper.png");
+    background: url("/portfolio/30Days30Sites/images/day03/exclusive_paper.png");
     height: 900px;
     font-size: 1.7em;
     padding: 0.8em 1em 0 1em;
@@ -108,7 +108,7 @@ h2 {
     
 .slide3 {
     position: relative;
-    background: url("/portfolio/30Days30Sites/images/parthenon-pixabay.jpg") no-repeat center center fixed; 
+    background: url("/portfolio/30Days30Sites/images/day03/parthenon-pixabay.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -166,7 +166,7 @@ h2 {
         
 .slide4 {
     width: 100%;
-    background: url("/portfolio/30Days30Sites/images/exclusive_paper.png");
+    background: url("/portfolio/30Days30Sites/images/day03/exclusive_paper.png");
     height: 600px;
     font-size: 1.5em;
     padding: 4em 1em 2em 1em;
@@ -177,7 +177,7 @@ h2 {
     }
     
 .slide5 {
-    background: url("/portfolio/30Days30Sites/images/nashville-pixabay.jpg") no-repeat center center fixed; 
+    background: url("/portfolio/30Days30Sites/images/day03/nashville-pixabay.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

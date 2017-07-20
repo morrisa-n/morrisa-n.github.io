@@ -1,0 +1,107 @@
+.navbar-inverse {
+    background: green;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    font-family: Lato;
+    }
+    
+.navbar-inverse a {
+    color: #fff!important;
+    font-weight: bold;
+    }
+    
+.active a {
+    background: green!important;
+    }
+    
+.btn-warning {
+    font-weight: bold;
+    margin-right: 1em;
+    }
+    
+.btn-warning:hover {
+    background: #ffec00!important;
+    border-color: #ffec00;
+    }
+    
+.delivery {
+    position: relative;
+    color: #fff;
+    font-size: 2em;
+    top: .2em;
+    margin: 0 .5em 0 0;
+    font-family: Corben;
+    }
+    
+.header h1 {
+    font-size: 10em;
+    font-family: Corben;
+    font-weight: 800;
+    margin-bottom: -0.2em;
+    color: #234a0f;
+    }
+    
+.header h2 {
+    font-size: 5em;
+    font-family: Corben;
+    color: #234a0f;
+    }
+    
+.pizza-headings {
+    background: #800000;
+    color: #fff;
+    width: 80%;
+    padding: .2em .5em 1em .5em;
+    margin: 2em auto 0 auto;
+    font-family: Corben;
+    }
+    
+.pizzas img {
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+.menu {
+    width: 80%;
+    margin: 1em auto 0 auto;
+    font-size: 1.5em;
+    font-family: Lato;
+    }
+    
+.menu li {
+    list-style-type: none;
+    padding-bottom: 0.6em;
+    }
+    
+.menu strong {
+    font-family: Corben;
+    font-weight: normal;
+    }
+    
+table {
+    width: 80%;
+    margin: 1em auto 2em auto;
+    font-size: 1.5em;
+    font-family: Lato;
+    }
+    
+th, td {
+    text-align: center;
+    }
+    
+td strong {
+    text-align: left!important;
+    } 
+
+footer {
+    background: green;
+    color: #fff;
+    padding: 2em;
+    font-size: 1.5em;
+    font-family: Lato, sans-serif;
+    }
+    
+footer .btn-success {
+    text-transform: uppercase;
+    }
