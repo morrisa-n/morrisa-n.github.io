@@ -3,7 +3,7 @@
     border: 0;
     border-radius: 0;
     color: #fff;
-    font-family: Lato;
+    font-family: Lato, Arial, sans-serif;
     }
     
 .navbar-inverse a {
@@ -31,12 +31,12 @@
     font-size: 2em;
     top: .2em;
     margin: 0 .5em 0 0;
-    font-family: Corben;
+    font-family: Corben, serif;
     }
     
 .header h1 {
     font-size: 10em;
-    font-family: Corben;
+    font-family: Corben, serif;
     font-weight: 800;
     margin-bottom: -0.2em;
     color: #234a0f;
@@ -44,7 +44,7 @@
     
 .header h2 {
     font-size: 5em;
-    font-family: Corben;
+    font-family: Corben, serif;
     color: #234a0f;
     }
     
@@ -54,7 +54,7 @@
     width: 80%;
     padding: .2em .5em 1em .5em;
     margin: 2em auto 0 auto;
-    font-family: Corben;
+    font-family: Corben, serif;
     }
     
 .pizzas img {
@@ -66,7 +66,7 @@
     width: 80%;
     margin: 1em auto 0 auto;
     font-size: 1.5em;
-    font-family: Lato;
+    font-family: Lato, Arial, sans-serif;
     }
     
 .menu li {
@@ -75,7 +75,7 @@
     }
     
 .menu strong {
-    font-family: Corben;
+    font-family: Corben, serif;
     font-weight: normal;
     }
     
@@ -83,7 +83,7 @@ table {
     width: 80%;
     margin: 1em auto 2em auto;
     font-size: 1.5em;
-    font-family: Lato;
+    font-family: Lato, Arial, sans-serif;
     }
     
 th, td {
@@ -99,7 +99,7 @@ footer {
     color: #fff;
     padding: 2em;
     font-size: 1.5em;
-    font-family: Lato, sans-serif;
+    font-family: Lato, Arial, sans-serif;
     }
     
 footer .btn-success {
