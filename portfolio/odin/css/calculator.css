@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+.calculator {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    }
+    
+.back {
+    width: 600px;
+    height: 700px;
+    background: #1aabd8;
+    border-radius: 5%;
+    box-shadow: inset 0 0 20px rgba(190, 235, 248, 1), 18px 18px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+.display {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    width: 550px;
+    height: 100px;
+    background: gold;
+    z-index: 1000;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    }
