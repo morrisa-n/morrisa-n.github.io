@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    
+html, body {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    }
+    
+body {
+    position: relative;
+    padding-bottom: 40px;
+    background: url("/portfolio/30Days30Sites/images/day08/wheat-field-van-gogh.jpg") center center fixed no-repeat;
+    background: cover;
+    }
+    
+.main {
+    width: 70%;
+    margin: 0 auto;
+    }
+    
+header {
+    text-align: center;
+    color: #25312d;
+    font-family: "Yeseva One";
+    }
+    
+header h1 {
+    font-size: 3.5em;
+    }
+    
+header img {
+    height: 400px;
+    border-radius: 50%;
+    }
+    
+.row {
+    padding: 1.5em;
+    padding-bottom: 4em;
+    font-size: 1.2em;
+    background: rgba(255,255,255,.8);
+    color: #000;
+    }
+    
+footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(0,0,0,.1), rgba(0,0,0,.3), rgba(0,0,0,.1));
+    bottom: 0!important;
+    left: 0;
+    font-size: 2em;
+    text-align: center;
+    padding: .1em 1em 0 1em;
+    overflow: hidden;
+    }
+    
+footer a {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    }
+    
+footer a:hover,
+footer a:focus,
+footer a:active {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+footer li {
+    display: inline;
+    }
+    
+.left {
+    float: left;
+    }
+    
+.right {
+    float: right;
+    }
+
+#container {
+    height: 100%;
+    min-height: 100%;
+    bottom: 0;
+    position: relative;
+    padding-bottom: 40px;
+    }

@@ -59,7 +59,8 @@ table {
     box-sizing: border-box;
     }
     
-body, html {
+body,
+html {
     min-height: 100%;
 }
 
@@ -88,8 +89,7 @@ h2 {
     color: #fff;
     position: relative;
     z-index: 1;
-    margin: -20px 0 -20px 0!important;
-    
+    margin: -20px 0 -20px 0!important;    
     padding: -20px 0 -20px 0!important;
     }
     
@@ -122,12 +122,12 @@ h2 {
 .embiggen {
     font-size: 3em;
     font-family: "Poiret One";
-    padding-bottom: 0.5em;
+    padding-bottom: .5em;
     }
     
 #footer {
     width: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+    background: linear-gradient(90deg, rgba(0,0,0,.1), rgba(0,0,0,.3), rgba(0,0,0,.1));
     height: 2.5em;
     margin-left: auto!important;
     margin-right: auto!important;
@@ -154,7 +154,7 @@ h2 {
     color: #fff;
     font-family: Roboto;
     text-decoration: none;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    text-shadow: 1px 1px 2px rgba(0,0,0,1);
     text-transform: uppercase;
     }
     
@@ -178,7 +178,7 @@ h2 {
     }
     
 .invite-text {
-    background: rgba(96, 104, 106, 0.5);
+    background: rgba(96,104,106,.5);
     padding: 3.5em;
     text-align: center;
     margin-bottom: 5em;
@@ -228,7 +228,7 @@ h2 {
     }
     
 .story-text {
-    background: rgba(47, 39, 36, 0.5);
+    background: rgba(47, 39, 36, .5);
     padding: 2em 4em 2em 4em;
     }
     
@@ -295,7 +295,7 @@ h2 {
     }
     
 .directions-text {
-    background: rgba(129, 57, 79, 0.5);
+    background: rgba(129, 57, 79, .5);
     padding: 2em 4em 2em 4em;
     text-align: center;
     }
@@ -310,13 +310,13 @@ hr {
     }
     
 .reminder h2 {
-    margin-top: 0.4em;
+    margin-top: .4em;
     padding-bottom: -1em;
     }
     
 .reminder p {
     text-align: center!important;
-    margin-top: -0.6em;
+    margin-top: -.6em;
     font-family: "Poiret One";
     }
     
