@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    
+html,
+body {
+    width: 100%;
+    height: 100%;
+    }
+    
+body {
+    background:linear-gradient(
+    rgba(255,255,255,.4),
+    rgba(255,255,255,.4)),
+    url("/portfolio/30Days30Sites/images/day09/bearinchest-pixabay.jpg") bottom right fixed no-repeat;
+    }
+    
+main {
+    margin: 4em auto 0 auto;
+    width: 60%;
+    padding: 1.6em;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5em;
+    }
+    
+h1,
+h2,
+.corben,
+.brand {
+    font-family: Corben, serif;
+    font-weight: 700;
+    }
+    
+.tagline {
+    font-size: 5em;
+    text-align: center;
+    }
+    
+.pink {
+    color: #ffc2e1;
+    }
+    
+.orange {
+    color: #fce0ca;
+    }
+    
+.yellow {
+    color: #faf7d6;
+    }
+    
+.green {
+    color: #ddf9c9;
+    }
+    
+.blue {
+    color: #d1f4fc;
+    }
+    
+.purple {
+    color: #e6c9f7;
+    }
+    
+main h2 {
+    text-align: center;
+    }
+    
+.navbar-right {
+    float: right;
+    }
+
+.brand {
+    position: absolute;
+    left: -4px;
+    top: 18px;
+    margin-right: .4em;
+    font-size: 2.5em;
+    display: inline;
+    }
+    
+    
+nav {
+    font-family: "Source Sans Pro", "Trebuchet MS", sans-serif;
+    }
+    
+nav a {
+    font-weight: bold;
+    }
+
+.active {
+    margin-left: 20em;
+    }
+    
+.btn {
+    margin-top: 1em;
+    font-size: 2em;
+    border-radius: 50%;
+    padding: .5em;
+    }
