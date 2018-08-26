@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* MY CODE */
+
+@font-face {
+    font-family: ChunkFive;
+    src: url('/css/fonts/Chunk.ttf');
+}
+
+@font-face {
+    font-family: "Ostrich Sans";
+    src: url('/css/fonts/ostrich-sans-regular.ttf');
+}
+
+html,
+body {
+    height: 100%;
+    }
+    
+body {
+    background: url("/portfolio/30Days30Sites/images/squairy_light.png"); /* Image from Subtle Patterns https://www.toptal.com/designers/subtlepatterns/squairy/ */
+    background-attachment: fixed;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    }
+
+h1 {
+    font-size: 3.5em;
+    }
+
+h2 {
+    font-size: 2em;
+    }
+
+/* Bootstrap */
+
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #000;
+    border-right: 0;
+  }
+}
+
+.nav-sidebar {
+  margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+/* END Bootstrap */
+
+.sidebar {
+    padding-top: 2em;
+  box-shadow: 2px 0px 30px rgba(0,0,0,.7);
+  min-width: 260px;
+    }
+    
+header {
+    text-align: right;
+    font-family: "Ostrich Sans";
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 1em;
+    }
+
+.bigger {
+    font-size: 5.2em;
+    font-family: "Ostrich Sans";
+    font-weight: 500;
+    }
+    
+.smallest {
+    font-size: 2em;
+    font-family: "Ostrich Sans";
+    font-weight: 500;
+    }
+    
+.smaller {
+    font-size: 4em;
+    font-family: "Ostrich Sans";
+    font-weight: 500;
+    }
+    
+.small-ish {
+    font-size: 4.5em;
+    font-family: "Ostrich Sans";
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    }
+    
+.sidebar a {
+    color: #fff;
+    font-family: Lato;
+    font-weight: 400;
+    }
+    
+.purple-back a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #5e3ea9!important;
+    }
+    
+.nav-sidebar > .active > a {
+    background: #5e3ea9;
+    }
+    
+.nav-sidebar > .active > a:hover {
+    background: #20879A!important;
+    }
+    
+header a:hover {
+    text-decoration: none!important;
+    background: #000!important;
+    }
+
+.portfolio-imgs {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.portfolio-imgs h4 {
+  margin-bottom: 0;
+}
+
+.portfolio {
+  margin-bottom: 2em;
+}
+
+.portfolio img {
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: 1.5em;
+  box-shadow: 2px 4px 30px rgba(0,0,0,.6);
+}
+
+.portfolio img:hover {
+    transform: scale(1.2, 1.2);
+    }
+     
+.main h4 {
+    font-size: 2em;
+    color: #0e0521;
+    font-family: "Ostrich Sans";
+    font-weight: 800;
+    }
+    
+.text-muted {
+    font-family: Lato;
+    }
+    
+footer {
+    position: fixed;
+    bottom: 10px;
+    z-index: 1000;
+    overflow: hidden;
+    }
+    
+.social li {
+    position: relative;
+    display: inline;
+    padding: 0 .4em 1em 1em;
+    word-wrap: break-word;
+    }
+    
+.social a {
+    color: #5e3ea9;
+    }
+    
+.social a:hover {
+     color: #fff;
+     }
